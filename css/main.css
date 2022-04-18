@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--indeex: calc(1vw + 1wh); /* соотношение раятяжения */
+	--gutter: 30px; /* отступы */
+	--side-small: 26; /* малая сторона */
+	--size-big: 36; /* большая сторона */
+}
+
+@font-face {
+	font-family: raleway_c;
+	src: url(../fonts/raleway-v22-cyrillic-300.woff2);
+	font-weight: 300;
+}
+@font-face {
+	font-family: raleway_c;
+	src: url(../fonts/raleway-v22-cyrillic-100.woff2);
+	font-weight: 100;
+}
+
+body {
+	color: #fff;
+	font-style: calc(var(--index) * 0.8);
+	font-family: raleway_c, sans-serif;
+	line-height: 1.75;
+
+	background-color: #000;
+}
